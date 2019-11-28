@@ -1,0 +1,118 @@
+{
+  "customers": [
+    {
+      "status": "a",
+      "id": "000001",
+      "name": "MARCOPOLO SA",
+      "cgc": "39017079000107",
+      "type": "j",
+      "openAmount": 13525.25
+    },
+    {
+      "status": "f",
+      "id": "000002",
+      "name": "SAQUE E PAGUE",
+      "cgc": "45736986000109",
+      "type": "j",
+      "openAmount": 7585
+    },
+    {
+      "status": "a",
+      "id": "000006",
+      "name": "EVERSON ALMEIDA",
+      "cgc": "85933302074",
+      "type": "f",
+      "openAmount": 7585
+    },
+    {
+      "status": "a",
+      "id": "000003",
+      "name": "FARINA",
+      "cgc": "31815154000165",
+      "type": "j",
+      "openAmount": 85658.36
+    },
+    {
+      "status": "a",
+      "id": "000004",
+      "name": "SNOWLAND",
+      "cgc": "72027215000107",
+      "type": "j",
+      "openAmount": 20222.99
+    },
+    {
+      "status": "f",
+      "id": "000005",
+      "name": "SULCLEAN",
+      "cgc": "55513218000131",
+      "type": "j",
+      "openAmount": 6582.78
+    },
+    {
+      "id": "000007",
+      "name": "RCD Ambiente",
+      "cgc": "99999999999999",
+      "type": "j",
+      "openAmount": 12754.25,
+      "status": "f"
+    }
+  ],
+  "salesOrder": [
+    {
+      "status": "a",
+      "pedido": "000001",
+      "cliente": "000001",
+      "nome": "MARCOPOLO SA",
+      "data": "01/01/2019",
+      "valor": "199,99"
+    },
+    {
+      "status": "f",
+      "pedido": "000002",
+      "cliente": "000001",
+      "nome": "MARCOPOLO SA",
+      "data": "01/01/2019",
+      "valor": "59,99"
+    },
+    {
+      "status": "f",
+      "pedido": "000003",
+      "cliente": "000002",
+      "nome": "SAQUE E PAGUE",
+      "data": "01/01/2019",
+      "valor": "199,99"
+    },
+    {
+      "status": "a",
+      "pedido": "000004",
+      "cliente": "000003",
+      "nome": "FARINA",
+      "data": "01/01/2019",
+      "valor": "79,99"
+    },
+    {
+      "status": "a",
+      "pedido": "000005",
+      "cliente": "000004",
+      "nome": "SNOWLAND",
+      "data": "01/01/2019",
+      "valor": "299,99"
+    },
+    {
+      "status": "f",
+      "pedido": "000006",
+      "cliente": "000005",
+      "nome": "SULCLEAN",
+      "data": "01/01/2019",
+      "valor": "199,99"
+    },
+    {
+      "status": "f",
+      "pedido": "000007",
+      "cliente": "000005",
+      "nome": "SULCLEAN",
+      "data": "01/01/2019",
+      "valor": "79,99"
+    }
+  ]
+}
